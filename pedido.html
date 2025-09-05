@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pedido.css">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <title>Finalizar Pedido</title>
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <div class="logo">
+        <img src="logo.png" alt="logo">
+      </div>
+      <h1>La Italia Riostariante</h1>
+      <div class="menu-links">
+        <a href="index.html">Home</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="https://maps.google.com">Localização</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="formulario">
+    <h2>Finalizar Pedido</h2>
+    <form action="#" method="post">
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="endereco">Endereço para Entrega:</label>
+      <textarea id="endereco" name="endereco" required></textarea>
+
+      <h3>Forma de Pagamento</h3>
+      <select name="pagamento" required>
+        <option value="pix">PIX</option>
+        <option value="credito">Cartão de Crédito</option>
+        <option value="debito">Cartão de Débito</option>
+        <option value="dinheiro">Dinheiro</option>
+      </select>
+
+      <button type="submit" class="botao-confirmar">Confirmar Pedido</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="contato">
+      <p>Tel: (12) 98892-5710</p>
+      <p>Localização: Rua Araraquara, nº 98</p>
+    </div>
+    <div class="creditos">
+      &copy; 2025 - Página desenvolvida por TDAdevs
+    </div>
+  </footer>
+</body>
+</html>
